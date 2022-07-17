@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineTeca</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/cine.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"
+            ><img
+              src="img/cine.png"
+              width="50"
+              height="40"
+              class="d-inline-block align-text-top"
+            />
+            CineTeca
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="cartelera.html"
+                  >Cartelera</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="ProximosEstrenos.html"
+                  >Proximos Estrenos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contactos.html"
+                  >Contáctanos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="marquesina">
+            <marquee direction="left">Vive una experiencia unica </marquee>
+          </div>
+        </div>
+      </nav>
+
+      <!-- cartelera -->
+      <div id="peliculas" class="container">
+        <div class="text-center pt-5">
+          <h1 class="display-3">Cartelera</h1>
+        </div>
+        <div class="row">
+
+          <!-- foto -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal">
+              <img src="img/HO00004261.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="Modal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004261.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Doctor Strange en el multiverso de la locura
+                      </h5>
+                      <p class="card-text">
+                        Viaja a lo desconocido con el Doctor Strange, quien, con
+                        la ayuda de tanto antiguos como nuevos aliados místicos,
+                        recorre las complejas y peligrosas realidades
+                        alternativas del multiverso para enfrentarse a un nuevo
+                        y misterioso adversario.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>126 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">1</button>
+                      <button type="button" class="btn btn-danger">3</button>
+                      <button type="button" class="btn btn-danger">5</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal2">
+              <img src="img/HO00004278.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal2 -->
+          <div
+            class="modal fade"
+            id="Modal2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004278.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Jurassic World: Dominio
+                      </h5>
+                      <p class="card-text">
+                        Cuatro años después de la destrucción de Isla Nublar, los dinosaurios ahora conviven -y cazan- con los seres humanos en todo el mundo. Este frágil equilibrio remodelará el futuro y determinará, de una vez por todas, si los seres humanos seguirán en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>146 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">2</button>
+                      <button type="button" class="btn btn-danger">4</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal3">
+              <img src="img/HO00004293.jpg" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal3 -->
+          <div
+            class="modal fade"
+            id="Modal3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004293.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Top Gun: Maverick
+                      </h5>
+                      <p class="card-text">
+                        Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete "Mavericks" Mitchel (Tom Cruise) se encuentra donde siempre quiso estar: superando los límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra. Cuando es destinado a la academia de Top Gun con el objetivo de entrenar a los pilotos de élite para realizar una peligrosa misión en territorio enemigo, Maverick se encuentra allí con el joven teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo "Goose".
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>131 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">1</button>
+                      <button type="button" class="btn btn-danger">7</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal4">
+              <img src="img/HO00004259.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal4 -->
+          <div
+            class="modal fade"
+            id="Modal4"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004259.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Sonic 2: La película
+                      </h5>
+                      <p class="card-text">
+                        Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe. La prueba de fuego llega con el retorno del malvado Robotnik, en esta ocasión con un nuevo compinche, Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones. Sonic forma equipo con su propio compañero de fatigas, Tails, y juntos se lanzan a una aventura que les llevará por todo el mundo en busca de la preciada piedra para evitar que caiga en manos equivocadas.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>122 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">2</button>
+                      <button type="button" class="btn btn-danger">5</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto5 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal5">
+              <img src="img/HO00004269.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal5 -->
+          <div
+            class="modal fade"
+            id="Modal5"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004269.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        La ciudad perdida
+                      </h5>
+                      <p class="card-text">
+                        La carrera literaria de la brillante y algo huraña escritora de novelas Loretta Sage (Sandra Bullock) ha girado en torno a las novelas románticas de aventuras que, ambientadas en lugares exóticos, protagoniza un atractivo galán cuya imagen aparece reproducida en todas las portadas, y que en la vida real corresponde a Alan (Channing Tatum), un modelo que ha centrado su carrera en personificar al novelesco aventurero. Durante una gira para promocionar su nuevo libro junto a Alan, Loretta es raptada por un excéntrico multimillonario (Daniel Radcliffe), con la intención de que la autora le guíe hasta el tesoro de la antigua ciudad perdida sobre el que gira su último relato. Deseoso de demostrar que puede ser un héroe en la vida real, y no simplemente en las páginas de sus obras de ficción, Alan se lanza al rescate de la novelista.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>120 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">3</button>
+                      <button type="button" class="btn btn-danger">4</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto6 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal6">
+              <img src="img/HO00004283.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal6 -->
+          <div
+            class="modal fade"
+            id="Modal6"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004283.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Llamas de venganza
+                      </h5>
+                      <p class="card-text">
+                        Una pareja oculta a su hija, Charlie, capaz de provocar fuego espontáneamente, de una agencia que quiere usarla. Finalmente, la organización encuentra a la familia y se dispone a llevarse a la niña, pero ella no está dispuesta a que la utilicen.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>94 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">5</button>
+                      <button type="button" class="btn btn-danger">7</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto7 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal7">
+              <img src="img/HO00004303.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal7 -->
+          <div
+            class="modal fade"
+            id="Modal7"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004303.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Princesa por accidente
+                      </h5>
+                      <p class="card-text">
+                        Pil es una pequeña huérfana que vive en la calle, en la ciudad medieval de Roc-en-Brume. Junto a sus tres comadrejas amaestradas, Pil sobrevive robando comida en el castillo del siniestro rey Tristain, que ha usurpado el trono.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>89 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">1</button>
+                      <button type="button" class="btn btn-danger">4</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- foto8 -->
+          <div class="col-lg-4 col-md-6 col-sm-12 p-2 mx-auto">
+            <a href="" data-bs-toggle="modal" data-bs-target="#Modal8">
+              <img src="img/HO00004305.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <!-- Modal8 -->
+          <div
+            class="modal fade"
+            id="Modal8"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="card mb-3">
+                <div class="card-header">
+                  <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7">
+                    <img
+                      src="img/modals/HO00004305.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                      style="max-width: 100%; height: 100%"
+                    />
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Historias que no te atreves a contar
+                      </h5>
+                      <p class="card-text">
+                        Ji-woo, un artista de la web, visita una mansión abandonada ubicada a las afueras de Seúl para encontrar inspiración para su trabajo. Pero mientras busca, escucha extrañas historias del lugar: un par de zapatos abandonados en un pasillo, risas de niños invisibles… A pesar de la atmósfera espeluznante, Ji-woo inconscientemente se adentra más en la extraña mansión y sus horribles secretos.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Duración: </small>106 min.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Salas disponibles:</small>
+                      </p>
+                      <button type="button" class="btn btn-danger">5</button>
+                      <button type="button" class="btn btn-danger">6</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pie de pagina -->
+      <div id="piepagina">
+        <center>
+          © 2022. Todos los derechos reservados. <br />Maracaibo Venezuela
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

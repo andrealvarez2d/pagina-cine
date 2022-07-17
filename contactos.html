@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineTeca</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/cine.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"
+            ><img
+              src="img/cine.png"
+              width="50"
+              height="40"
+              class="d-inline-block align-text-top"
+            />
+            CineTeca
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="cartelera.html"
+                  >Cartelera</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="ProximosEstrenos.html"
+                  >Proximos Estrenos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="contactos.html"
+                  >Contáctanos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="marquesina">
+            <marquee direction="left">Vive una experiencia unica </marquee>
+          </div>
+        </div>
+      </nav>
+
+      <!-- formulario de mensajes -->
+      <div id="contact" class="container">
+        <div class="text-center pt-5">
+          <h1 class="display-3">Contáctanos</h1>
+          <br />
+        </div>
+        <div class="row">
+          <div class="col-12 p-2">
+            <div class="mb-3">
+              <label for="exampleFormControlInput0" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput0"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="nombre@ejemplo.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-danger">Enviar</button>
+        </div>
+      </div>
+
+      <!-- pie de pagina -->
+      <div id="piepagina" class="fixed-bottom">
+        <center>
+          © 2022. Todos los derechos reservados. <br />Maracaibo Venezuela
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
